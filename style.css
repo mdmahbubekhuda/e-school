@@ -4,9 +4,6 @@
 
         /* Navigation */
 
-.container{
-    margin-bottom: 50px;
-}
 .nav-item{
     margin-left: 10px;
     margin-right: 10px;
@@ -90,13 +87,9 @@
     line-height: 1;
 }
 footer{
-    height: 350px;
+    height: auto;
     background-color: #413960 ;
     color: white;
 }
-.footer small{
-    margin-top: 40px;
-}
-.footer{
-    padding-top: 40px;
-}
+
+
