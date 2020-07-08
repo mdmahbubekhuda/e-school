@@ -1,27 +1,18 @@
 
-/* green button color #21B573 */
 
-/* red font color #FD511A; */
+        /* Header */
 
-/* online courses color #413960 */
-/* 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal */
-
-
-/* online courses pic size
-width: 331px;
-height: 234px; */
+        /* Navigation */
 
 .container{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .nav-item{
     margin-left: 10px;
     margin-right: 10px;
 }
 
+        /* Landing Page */
 
 .header-text{
     line-height: 33px;
@@ -43,6 +34,9 @@ height: 234px; */
 }
 
 
+        /* Main Body */
+
+        /* "Categories Part" */
 
 
 .cat1, .cat2, .cat3, .cat4{
@@ -57,13 +51,10 @@ height: 234px; */
 .cat2 img{
     width: 80px;
     height: 83px;
-
-
 }
 .cat3 img{
     width: 75px;
     height: 80px;
-    
 }
 .cat4 img{
     width: 68px;
@@ -73,12 +64,13 @@ height: 234px; */
     margin-bottom: 30px;
 }
 
-
+        /* "Online Courses" Part */
 
 
 .online-courses h2{
+    color: #413960;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .card-footer{
     background-color: white;
@@ -90,18 +82,21 @@ height: 234px; */
     margin-right: 6px;
 }
 
+        /* Footer with Navigation */
 
 
-
-.testimonial h2{
-    text-align: center;
-    margin-bottom: 100px;
+.nav-link{
+    color: white;
+    line-height: 1;
 }
-
-.testimonial img{
-    width: 120px;
-    height: 120px;
+footer{
+    height: 350px;
+    background-color: #413960 ;
+    color: white;
 }
-.testimonial{
-    text-align: justify;
+.footer small{
+    margin-top: 40px;
+}
+.footer{
+    padding-top: 40px;
 }
